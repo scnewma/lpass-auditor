@@ -11,5 +11,9 @@ Your plaintext passwords are safe (as long as you protect your CSV export) and a
 This CLI requires a CSV export of your LastPass data. You can do that via the browser extension under `More Options > Advanced > Export`. After exporting, you can run the lpass-auditor CLI.
 
 ```
+# get the cli
+go get -u github.com/scnewma/lpass-auditor
+
+# use it
 lpass-auditor /path/to/csv
 ```
