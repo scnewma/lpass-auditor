@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/scnewma/auditor/lpass"
-	"github.com/scnewma/auditor/password"
-	"github.com/scnewma/auditor/pwned"
+	"github.com/scnewma/lpass-auditor/lpass"
+	"github.com/scnewma/lpass-auditor/password"
+	"github.com/scnewma/lpass-auditor/pwned"
 )
 
 const (

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/scnewma/auditor/pwned"
+	"github.com/scnewma/lpass-auditor/pwned"
 )
 
 func PwnedCount(client pwned.Client, password string) (int, error) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/scnewma/auditor/command"
+	"github.com/scnewma/lpass-auditor/command"
 )
 
 func main() {
