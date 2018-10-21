@@ -87,7 +87,7 @@ func printPwnedEntries(pwnedEntries []pwnedEntry) {
 	if len(pwnedEntries) == 0 {
 		fmt.Println("\nNo pwned passwords found! Keep up the good work!")
 	} else {
-		fmt.Println("\nYou should consider changing the passwords for the following entries as their passwords have been pwned:")
+		fmt.Println("\nYou should consider changing the passwords for the following entries as they have been pwned:")
 
 		for _, pe := range pwnedEntries {
 			fmt.Printf("Name: %s - Count: %d\n", pe.name, pe.count)
